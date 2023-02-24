@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic tac toc</string>
+    <string name="enter_player_two_name">Enter Player two name</string>
+    <string name="enter_player_one_name">Enter Player one name</string>
+    <string name="enter_n_players_names">ENTER\n PLAYERS NAMES</string>
+    <string name="start_game">Start Game</string>
+</resources>
