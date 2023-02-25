@@ -33,7 +33,6 @@
                 android:textColor="@color/lavender"
                 android:textSize="36sp"
                 android:textStyle="bold">
-
             </TextView>
 
             <EditText
@@ -48,8 +47,10 @@
                 android:textColor="@color/lavender"
                 android:textStyle="italic"
                 android:drawableStart="@drawable/ic_xicon"
-                android:drawablePadding="8dp">
-
+                android:drawablePadding="8dp"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:singleLine="true">
             </EditText>
 
             <EditText
@@ -64,10 +65,12 @@
                 android:textColor="@color/lavender"
                 android:textStyle="italic"
                 android:drawableStart="@drawable/ic_oicon"
-                android:drawablePadding="8dp">
+                android:drawablePadding="8dp"
+                android:singleLine="true">
             </EditText>
 
             <Button
+                android:id="@+id/startGameButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -75,8 +78,8 @@
                 android:text="@string/start_game"
                 android:textSize="18sp"
                 app:cornerRadius="20dp">
-
             </Button>
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
